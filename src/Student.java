@@ -65,7 +65,7 @@ public class Student {
                 " ID: " + id +
                 " Academic program: " + major +
                 " GPA: " + gpa +
-                " Credits: " + credits;
+                " Credits: " + credits + "}";
 
     }
 }
