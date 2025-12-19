@@ -61,11 +61,12 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student {Full name: " + name +
-                " ID: " + id +
-                " Academic program: " + major +
-                " GPA: " + gpa +
-                " Credits: " + credits + "}";
+        return "Student {Full name: " + name + "\n" +
+                " ID: " + id +  "\n" +
+                " Academic program: " + major +  "\n" +
+                " GPA: " + gpa +  "\n" +
+                " Credits: " + credits + "\n" +
+                " Honors? - " + isHonors() + "} \n";
 
     }
 }

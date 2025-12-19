@@ -12,8 +12,16 @@ public class Course {
         students = new Student[numberOfStudents];
     }
 
+    private String GetStudents(){
+        String inf = "";
+        for (int i = 0; i < students.length; i++){
+            inf = inf + students[i].toString();
+        }
+        return inf;
+    }
+
     private void increaseNumberOfStudents(){
-        numberOfStudents = numberOfStudents * 2;
+        numberOfStudents = numberOfStudents + 1;
         Student[] newStudents = new Student[numberOfStudents];
 
         for (int i = 0; i < students.length; i++){
@@ -49,11 +57,12 @@ public class Course {
     }
     @Override
     public String toString(){
-        return "Course {Name: " + courseName +
-                " Instructor: " + instructor +
-                " Number of students: " + numberOfStudents +
-                " Average GPA: " + courseAverageGPA() +
-                " Highest credit student: " + highestCreditStudent().getName() + "}";
+        return "Course {Name: " + courseName +  "\n" +
+                " Instructor: " + instructor +  "\n" +
+                " Number of students: " + numberOfStudents +  "\n" +
+                " Students: " + GetStudents() +  "\n" +
+                " Average GPA: " + courseAverageGPA() +  "\n" +
+                " Highest credit student: " + highestCreditStudent().getName() + "} \n";
 
     }
 
