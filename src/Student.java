@@ -50,7 +50,7 @@ public class Student {
     }
 
     public void addCredits(int c){
-        credits++;
+        credits = credits + c;
     }
     public void updateGPA(double newGPA){
         gpa = newGPA;
