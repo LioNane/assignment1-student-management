@@ -61,4 +61,29 @@ void main() {
 
     System.out.println(course.toString());
     */
+    /*
+    Student[] students = new Student[5];
+
+    Student student1 = new Student("Nikita", 250298, "SE");
+    student1.updateGPA(1.0);
+    student1.addCredits(2);
+    Student student2 = new Student("Andrew", 240197, "SE");
+    student2.updateGPA(2.0);
+    student2.addCredits(5);
+    Student student3 = new Student("Nicholas", 240196, "SE");
+    student3.updateGPA(4.0);
+    student3.addCredits(7);
+    Student student4 = new Student("Maria", 240186, "SE");
+    student4.updateGPA(3.7);
+    Student student5 = new Student("Roman", 240195, "SE");
+    students[0] = student1;
+    students[1] = student2;
+    students[2] = student3;
+    students[3] = student4;
+    students[4] = student5;
+
+    System.out.println("Highest GPA student: " + getTopStudent(students).getName());
+    System.out.println("Honors: " + countHonors(students));
+    System.out.println("Total credits: " + totalCredits(students));
+    */
 }
