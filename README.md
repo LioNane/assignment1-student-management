@@ -15,3 +15,12 @@ Student has getters and setters for all fields, method addCredits to increase cr
 Class Course contain array of class Student. It has method to insert students that uses another private method to increase number of student in array.
 Class's methods are using array of students to find average GPA and highest credit student. That is a composition relationship. Also there is method toString.
 
+C. Instructions to Compile and Run
+
+javac *.java 
+java Main
+
+D. Screenshots
+
+Screenshots demonstrate input and output of processing Class Student, Class Course and static methods
+
