@@ -24,3 +24,12 @@ D. Screenshots
 
 Screenshots demonstrate input and output of processing Class Student, Class Course and static methods
 
+E. Reflection section
+
+I learned how to create classes, its constructors, access modifiers, static and non-static methods, encapsulation and OOP principles.
+
+I faced challenges with Git because it is new utilite for me, also I faced challenges with processing arrays of created classes.
+
+Encapsulation is about controliing access to data, abstraction is about to show necessary information and hide unnecessary information, what helps users to understand what methods do not how.
+Data hiding is about protecting internal data from changing, it prevents direct access to data.
+OOP principles make data processing safe and protected but easy to use.
